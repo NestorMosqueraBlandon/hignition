@@ -2,6 +2,7 @@ import Button from '@/components/Button'
 import Image from 'next/image'
 import React from 'react'
 import styles from "./Banner.module.css"
+import Link from 'next/link'
 
 const Banner = () => {
   return (
@@ -27,8 +28,8 @@ const Banner = () => {
         <h2>ESCALA MÁS RÁPIDO CUIDANDO TU MARCA</h2>
         <h4>Con menos estrés y más estabilidad.</h4>
         <div className={styles.buttons} >
-          <button className={styles.white}>Ver Planes</button>
-          <Button href='/'>Agendar Llamada Gratuita</Button>
+          <button className={styles.white}><Link href="https://1qiwzbrz2mf.typeform.com/to/gwDVacmB">Ver Planes</Link></button>
+          <Button href='https://1qiwzbrz2mf.typeform.com/to/gwDVacmB'>Agendar Llamada Gratuita</Button>
         </div>
     </div>
   </section>

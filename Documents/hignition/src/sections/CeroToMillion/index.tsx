@@ -18,7 +18,7 @@ const CeroToMillion = () => {
             </div>
             <h2>Resultados que hablan por sí solos.</h2>
           </div>
-          <Link href="/">Ver Portafolio</Link>
+          <Link href="/portafolio">Ver Portafolio</Link>
         </div>
 
             <Image width={350} height={400} alt="Imagen" src="https://assets-global.website-files.com/656678c749020be98c303cc2/656678c749020be98c303d5c_Mask%2520group-p-500.png" />

@@ -34,9 +34,9 @@ const Footer = () => {
           <div>
           <h4>Menú</h4>
           <ul>
-            <li>Home</li>
-            <li>Casos de Éxito</li>
-            <li>Agenda Una Demostración</li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/portafolio" >Casos de Éxito</Link> </li>
+            <li><Link href="https://1qiwzbrz2mf.typeform.com/to/gwDVacmB" >Agenda Una Demostración</Link></li>
           </ul>
           </div>
           <div>

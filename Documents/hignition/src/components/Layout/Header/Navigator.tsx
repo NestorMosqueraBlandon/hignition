@@ -78,7 +78,7 @@ const Navigator = () => {
         </div>
  
         <Link href="/portafolio">Casos de Exito</Link>
-        <Link href="/blog">Comunidad</Link>
+        {/* <Link href="/blog">Comunidad</Link> */}
       </ul>
     </nav>
   );

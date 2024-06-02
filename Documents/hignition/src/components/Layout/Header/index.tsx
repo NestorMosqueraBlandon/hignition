@@ -60,7 +60,7 @@ const Header = () => {
             ></rect>
           </svg>
         </button>
-        <button className={styles.speak}>Hablemos</button>
+        <button className={styles.speak}><Link href="https://1qiwzbrz2mf.typeform.com/to/gwDVacmB">Hablemos</Link></button>
       </div>
     </header>
   );

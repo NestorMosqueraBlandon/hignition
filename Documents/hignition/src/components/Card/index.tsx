@@ -11,7 +11,7 @@ const Card = ({ title, description, price, items, isRecommended }: { title: stri
     <h3 className={styles.price} >{price}<span>(USD)</span></h3>
     
     <div className={styles.line} />
-    <Link href="/" >Comprar Ahora</Link>
+    <Link href="https://1qiwzbrz2mf.typeform.com/to/gwDVacmB" >Comprar Ahora</Link>
 
     <ul className={styles.list}>
         {items.map((item) => (

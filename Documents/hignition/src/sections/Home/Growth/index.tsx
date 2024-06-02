@@ -14,7 +14,7 @@ const Growth = () => {
             <p>Despídete de los freelancers sin experiencia, y evita los altos costos de agencias lentas.</p>
         </div>
 
-        <Link className={styles.link} href="/" >Agenda una Llamada Gratuita</Link>
+        <Link className={styles.link} href="https://1qiwzbrz2mf.typeform.com/to/gwDVacmB" >Agenda una Llamada Gratuita</Link>
 
         <div className={styles.portrait} >
         <div>
