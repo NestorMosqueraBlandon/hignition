@@ -28,6 +28,9 @@ html{
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   background-color: #030112;
+  color-scheme: light;
+  color: #fff;
+
 }
 
 html:focus-within {
