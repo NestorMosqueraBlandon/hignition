@@ -1,0 +1,122 @@
+.section{
+    padding-block: 8rem;
+    width: min(90%, 120rem);
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.section .caps{
+    background-color: rgba(223, 154, 255, .08);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: max-content;
+}
+
+.section .caps h3{
+    background-image: linear-gradient(to bottom, var(--blue-violet), var(--light-steel-blue));
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.section h2{
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    max-width: 60%;
+}
+
+.section details{
+    -webkit-backdrop-filter: brightness(110%);
+    backdrop-filter: brightness(110%);
+    background-color: rgba(223, 154, 255, .05);
+    border-radius: 12px;
+    padding: 24px 37px 24px 24px;
+}
+
+.list{
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+.portrait{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 10rem;
+  }
+
+  .final{
+    background-color: rgba(255, 255, 255, .1);
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50rem;
+  }
+
+  .clients_stack{
+    display: flex;
+    align-items: center;
+  }
+
+  .client_text{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+
+.section_clients{
+    display: grid;
+    justify-content: center;
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.section p{
+    color: rgba(255, 255, 255, .7);
+}
+
+.link{
+    background-color: #fff;
+    border-radius: 1rem;
+    color: #121212;
+    width: max-content;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+
+@media screen and (max-width:768px) {
+    .section{
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .section h2{
+        max-width: 90%;
+        font-size: 4rem;
+    }
+}

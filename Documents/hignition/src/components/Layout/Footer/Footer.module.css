@@ -1,0 +1,92 @@
+.footer{
+    width: min(90%, 120rem);
+    margin: auto;
+    padding: 4rem;
+}
+
+.footer p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, .8);
+}
+
+.legal{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, .8);
+}
+
+.logo{
+    display: inline-flex;
+    width: 15rem;
+    height: 8.5rem;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-block: 1rem 2rem;
+}
+
+.social a{
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 50rem;
+    padding: 1rem;
+}
+
+.content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+.options{
+    display: flex;
+    gap: 4rem;
+}
+
+.options h4{
+    font-weight: 300;
+    margin-bottom: 3rem;
+    color: rgba(255, 255, 255, .5);
+}
+
+.options ul{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.options ul li{
+    max-width: 60%;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width:768px) {
+    .footer{
+        padding-inline: 0;
+    }
+    .content{
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .options{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .options{
+        flex-wrap: wrap;
+    }
+    
+    .legal{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,77 @@
+
+.box{
+    position: relative;
+    width: 36rem;
+    -webkit-backdrop-filter: blur(5px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-image: radial-gradient(circle farthest-side at 50% 100%, var(--midnight-blue), var(--black));
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    padding: 4rem;
+    display: grid;
+    border: 1px solid #57396D;
+    border-radius: 1rem;
+    box-shadow: 0 0 60px rgba(104, 37, 245, .16);
+    background-image: url(https://assets-global.website-files.com/656678c…/656678c…_pricing%20globe.png), radial-gradient(circle farthest-side at 50% 50%, #18093e, var(--black) 76%);
+}
+
+.tag{
+    background-color: rgba(223, 154, 255, .1);
+    border-radius: 8px;
+    padding: 4px 12px;
+    position: absolute;
+    top: 10px;
+    bottom: auto;
+    left: auto;
+    right: 10px;
+}
+
+
+.box h4{
+    font-weight: 500;
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.box p{
+    color: rgba(255, 255, 255, .6);
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.box a{
+    background-color: #fff;
+    color: #18093e;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-block: 2rem;
+}
+
+.price{
+    background-image: linear-gradient(to bottom, var(--blue-violet), var(--light-steel-blue));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.price span{
+    font-size: 1.8rem;
+}
+
+.line{
+    width: 100%;
+    height: 1rem;
+    background-color: transparent;
+    border-bottom: 1px dashed rgba(255, 255, 255, .2);
+    margin-bottom: 2rem ;
+}
+
+.list li{
+    font-size: 1.6rem;
+}

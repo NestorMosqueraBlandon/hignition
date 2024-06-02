@@ -1,0 +1,150 @@
+.section{
+    padding-block: 10rem;
+    width: min(90%, 120rem);
+    margin-inline: auto;
+}
+.section .caps{
+    background-color: rgba(223, 154, 255, .08);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.section .caps h4{
+    background-image: linear-gradient(to bottom, var(--blue-violet), var(--light-steel-blue));
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.section .center > h2{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.service .caps{
+    background-color: rgba(223, 154, 255, .08);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.service .caps h3{
+    background-image: linear-gradient(to bottom, var(--blue-violet), var(--light-steel-blue));
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 6rem;
+    grid-auto-columns: 1fr;
+    gap: 4rem;
+}
+
+.service picture{
+    width: 55rem;
+    align-self: center;
+    justify-self: center;
+    height: 55rem;
+    -webkit-backdrop-filter: brightness(110%);
+    backdrop-filter: brightness(110%);
+    background-color: rgba(223, 154, 255, .05);
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 32px;
+    display: flex;
+}
+
+.service .information .caps{
+    display: inline-flex;
+    margin-bottom: 2rem;
+}
+
+.information h2{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.information > p{
+    color: rgba(255, 255, 255, .6);
+    font-weight: 400;
+    max-width: 50%;
+    margin-bottom: 3rem;
+}
+
+.description{
+    border-top: 1px dashed rgba(255, 255, 255, .4);
+    margin-top: 4rem;
+    padding-top: 4rem;
+    display: flex;
+}
+
+.description > div{
+    width: 25rem;
+}
+
+.description > div p{
+    width: 70%;
+    color: rgba(255, 255, 255, .9);
+    line-height: 2.5rem;
+    font-weight: 300;
+
+}
+
+@media screen and (max-width:768px) {
+    .services{
+        overflow: hidden;
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        margin-bottom: 4rem;
+    }
+
+    .services .service:nth-child(odd){
+            flex-direction: column-reverse;
+    }
+
+}

@@ -1,0 +1,45 @@
+
+.btn{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-image: linear-gradient(rgba(223, 154, 255, .32), rgba(223, 154, 255, .14));
+    border-radius: 9px;
+    padding: 1px ;
+    display: inline-block;
+}
+
+.btn a{
+    color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-flex;
+    background-color: var(--black);
+    text-align: center;
+    background-image: url("https://assets-global.website-files.com/656678c…/656678c…_button%20gradient%202.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid #000;
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px 28px;
+    transition: background-color .2s;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+
+}
+
+@media screen and (max-width:768px) {
+    .btn{
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn a{
+        text-align: center;
+        justify-content: center;
+    }
+}
