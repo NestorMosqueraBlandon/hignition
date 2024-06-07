@@ -1,0 +1,131 @@
+.container{
+    display: grid;
+    grid-template-columns: 45rem 1fr;
+    align-items: flex-start;
+}
+
+.items h2{
+    margin-bottom: 2rem;
+}
+
+.items_header{
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-block: 2rem;
+    padding-inline: 4rem;
+}
+
+.overview{
+    background-color: #fafafa;
+    height: 95vh;
+    padding: 2rem 4rem;
+}
+
+.overview_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.overview_header button{
+    width: 4rem;
+    height: 3rem;
+    padding: 1rem;
+}
+
+.customer_name{
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.customer_info{
+    display: flex;
+    gap: 15rem;
+    margin-top: 2rem;
+}
+.customer_info span{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, .5);
+}
+
+.customer_info p{
+    margin-top: 0;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+}
+
+.arrow svg{
+    margin-left: -.9rem;
+}
+
+.arrow .null_arrow{
+    margin-left: -.6rem;
+}
+
+.package_info{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.package_info > div{
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    width: 20rem;
+    height: 15rem;
+    display: grid;
+    place-content: center;
+}
+
+.package_info h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.orders_list{
+    padding:2rem 4rem;
+}
+
+.orders_list > div{
+    background-color: #fff;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.orders_list > div h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.orders_list > div span{
+    background-color: #1970ea50;
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+}
+
+.orders_list > div p{
+    background-color: rgba(169, 169, 169, 0.1);
+    color: var(--color-grey-700);
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+    }
+}

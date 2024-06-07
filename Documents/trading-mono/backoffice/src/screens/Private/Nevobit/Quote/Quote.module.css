@@ -1,0 +1,137 @@
+.container {
+    padding: 2rem 4rem;
+}
+
+.card_content {
+    padding-inline: 2rem;
+    background-color: var(--bg-second);
+    border-radius: .5rem;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 2rem;
+    gap: 2rem;
+    width: 95%;
+    margin: 2rem auto;
+}
+
+.card_content_list{
+    padding-inline: 2rem;
+    padding-bottom: 3rem;
+    background-color: var(--bg-second);
+    width: 95%;
+    margin: 2rem auto;
+    border-radius: .5rem;
+}
+.card_options {
+    padding-top: 2rem;
+    padding-inline: 2rem;
+    background-color: var(--bg-second);
+    border-radius: .5rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 95%;
+    margin-inline: auto;
+    padding-bottom: 1rem;
+}
+
+.container_options {
+    margin-bottom: 10rem;
+}
+
+.card_item {
+    width: 100%;
+}
+
+.padding_top {
+    padding-top: 2rem;
+    border-end-end-radius: 0;
+    border-end-start-radius: 0;
+}
+
+.card_item h4 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, .7);
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    padding-inline: 4rem;
+    padding-block: 1rem;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tabs>.tab {
+    padding-inline: 1rem;
+    border-radius: .5rem;
+    /* border-right: 1px solid rgba(0,0,0,0.5); */
+    min-width: 100px;
+    height: 3rem;
+    /* overflow: hidden; */
+    font-size: 1.4rem;
+    white-space: nowrap;
+    position: relative;
+    text-align: left;
+    margin-right: 1rem;
+}
+
+.tabs>.tab::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    width: 0;
+    width: 1px;
+    height: 60%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.tabs .selected {
+    background-color: #fff;
+}
+
+.tabs>.tab button {
+    position: absolute;
+    top: .4rem;
+    right: -0.5rem;
+    font-size: 1.8rem;
+    background-color: transparent;
+}
+
+.tabs button {
+    margin-left: 1rem;
+}
+
+.options {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding-inline: 4rem;
+    padding-top: 1rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--bg-second);
+    height: 7rem;
+    width: 100%;
+    padding-inline: 4rem;
+    padding-block: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+
+.footer p {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.item {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 2rem;
+}

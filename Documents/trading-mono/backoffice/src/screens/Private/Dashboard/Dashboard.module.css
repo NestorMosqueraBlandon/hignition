@@ -1,0 +1,101 @@
+.background{
+    background-color: var(--main-color);
+    height: 20rem;
+    position:fixed ;
+    width: 100%;
+    top: 5rem;
+    z-index: 0;
+
+}
+
+.header h2{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+.info > div{
+    position: relative;
+    z-index: 9;
+    background-color: #fff;
+    height: 22rem;
+    width: 100%;
+    border-radius: .5rem;
+    box-shadow: 0 0 80px 0 rgba(0,0,0,.06);
+    padding: .5rem 2rem;
+    padding-bottom: 1rem;
+}
+
+.card{
+    position: relative;
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+    box-shadow: 0 0 80px 0 rgba(0,0,0,.06);
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 31rem;
+    align-items: flex-start;
+    grid-template-areas:
+    "a b b"
+    "c b b";
+    gap: 3rem;
+}
+
+.table{
+    width: 100%;
+    font-size: 1.4rem;
+    border-collapse: collapse ;
+    overflow-y: auto;
+    padding: 0 1rem;
+    margin-top: 1rem;
+}
+
+.table th, .table td{
+    padding: 1rem 0; 
+    font-size: 1.4rem;
+}
+
+.table td{
+    background-color: #F3F5F6;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    background-color: #fff;
+}
+
+
+.header th{
+    position: relative;
+    font-weight: 500;
+    text-align: left;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, .6);
+    border-radius: 1rem;
+    font-weight: 500;
+    width: auto;
+}
+
+.card {
+    grid-area: a;
+}
+.points{
+    grid-area: b;
+}
+
+.overview{
+    grid-area: c;
+    margin-top: -1rem;
+}

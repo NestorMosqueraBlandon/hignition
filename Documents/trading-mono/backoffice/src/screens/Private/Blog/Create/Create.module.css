@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid{
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 40rem 1fr;
+    max-width: 120rem;
+    margin-inline: auto;
+}
+

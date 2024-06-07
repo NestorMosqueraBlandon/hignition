@@ -1,0 +1,42 @@
+
+
+.assigness_card{
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    transition: .3s;
+   }
+   
+   .assigness_card span{
+    transition: .3s;
+    margin-right: -2rem;
+   
+}
+   
+   .assigness_card .character{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   
+   .assigness_card span:last-child{
+    margin-right: 0;
+   }
+   
+   .assigness_card:hover span{
+    margin-right: 0;
+   }
+   
+   .assigness_card .assigne_picture{
+    width: 3.5rem;
+    height: 3.5rem;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #cbcbcb;
+    border: 1px solid #fff;
+   }
+
+   .info{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+   }

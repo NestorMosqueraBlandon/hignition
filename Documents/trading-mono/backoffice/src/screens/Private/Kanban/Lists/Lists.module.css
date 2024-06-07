@@ -1,0 +1,6 @@
+.lists{
+    display: flex;
+    justify-content: space-between;
+    margin: 26px -5px 0;
+    overflow-x: auto;
+}

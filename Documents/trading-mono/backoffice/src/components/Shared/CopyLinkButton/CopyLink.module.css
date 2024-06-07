@@ -1,0 +1,14 @@
+.button{
+    font-size: 1.4rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    color: #333;
+    font-weight: 500;
+    width: auto !important;
+   }
+   
+   .button i{
+    font-size: 1.8rem;
+   }

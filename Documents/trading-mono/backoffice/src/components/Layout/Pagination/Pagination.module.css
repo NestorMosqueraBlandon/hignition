@@ -1,0 +1,19 @@
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+
+}
+
+.pagination div{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.pagination div button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
