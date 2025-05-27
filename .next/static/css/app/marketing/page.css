@@ -1,0 +1,488 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.3_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/.pnpm/next@14.2.3_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Card/Card.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+.Card_box__nd42o{
+    position: relative;
+    width: 36rem;
+    -webkit-backdrop-filter: blur(5px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-image: radial-gradient(circle farthest-side at 50% 100%, var(--midnight-blue), var(--black));
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    padding: 4rem;
+    display: grid;
+    border: 1px solid #57396D;
+    border-radius: 1rem;
+    box-shadow: 0 0 60px rgba(104, 37, 245, .16);
+    background-image: url(https://assets-global.website-files.com/656678c…/656678c…_pricing%20globe.png), radial-gradient(circle farthest-side at 50% 50%, #18093e, var(--black) 76%);
+}
+
+.Card_tag__be3R8{
+    background-color: rgba(223, 154, 255, .1);
+    border-radius: 8px;
+    padding: 4px 12px;
+    position: absolute;
+    top: 10px;
+    bottom: auto;
+    left: auto;
+    right: 10px;
+}
+
+
+.Card_box__nd42o h4{
+    font-weight: 500;
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.Card_box__nd42o p{
+    color: rgba(255, 255, 255, .6);
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.Card_box__nd42o a{
+    background-color: #fff;
+    color: #18093e;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-block: 2rem;
+}
+
+.Card_price__b7tA4{
+    background-image: linear-gradient(to bottom, var(--blue-violet), var(--light-steel-blue));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.Card_price__b7tA4 span{
+    font-size: 1.8rem;
+}
+
+.Card_line__gDrUA{
+    width: 100%;
+    height: 1rem;
+    background-color: transparent;
+    border-bottom: 1px dashed rgba(255, 255, 255, .2);
+    margin-bottom: 2rem ;
+}
+
+.Card_list__fQwF6 li{
+    font-size: 1.6rem;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.3_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/.pnpm/next@14.2.3_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/sections/Cards/Cards.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Cards_section__NwEFK{
+    padding-block: 8rem;
+    width: min(90%, 120rem);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-column-gap: 1.6rem;
+    grid-row-gap: 1.6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cards_section__NwEFK h2{
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.Cards_section__NwEFK > p{
+    color: rgba(255, 255, 255, .6);
+    max-width: 40rem;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+.Cards_box__jyqX2{
+    position: relative;
+    width: 50rem;
+    -webkit-backdrop-filter: blur(5px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-image: radial-gradient(circle farthest-side at 50% 100%, var(--midnight-blue), var(--black));
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    padding: 4rem;
+    display: grid;
+    border: 1px solid #57396D;
+    border-radius: 1rem;
+    box-shadow: 0 0 60px rgba(104, 37, 245, .16);
+    background-image: url(https://assets-global.website-files.com/656678c…/656678c…_pricing%20globe.png), radial-gradient(circle farthest-side at 50% 50%, #18093e, var(--black) 76%);
+}
+
+.Cards_tag__YTUQQ{
+    background-color: rgba(223, 154, 255, .1);
+    border-radius: 8px;
+    padding: 4px 12px;
+    position: absolute;
+    top: 10px;
+    bottom: auto;
+    left: auto;
+    right: 10px;
+}
+
+.Cards_content__iZ2IT{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    padding-top: 40px;
+    display: flex;
+}
+
+.Cards_section__NwEFK .Cards_caps___DQLt{
+    background-color: rgba(223, 154, 255, .08);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+}
+
+.Cards_section__NwEFK .Cards_caps___DQLt h3{
+    background-image: linear-gradient(to bottom, var(--blue-violet), var(--light-steel-blue));
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.Cards_content__iZ2IT a{
+    background-color: #fff;
+    border-radius: 1rem;
+    color: #121212;
+    width: max-content;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.Cards_section__NwEFK ul li {
+    background-image: url("https://assets-global.website-files.com/656678c749020be98c303cc2/656678c749020be98c303dbb_white%20check.svg");
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 36px;
+    line-height: 160%;
+}
+
+.Cards_box__jyqX2 h4{
+    font-weight: 500;
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+}
+
+.Cards_box__jyqX2 p{
+    color: rgba(255, 255, 255, .6);
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.Cards_box__jyqX2 a{
+    background-color: #fff;
+    color: #18093e;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-block: 2rem;
+}
+
+.Cards_price__xJRzw{
+    background-image: linear-gradient(to bottom, var(--blue-violet), var(--light-steel-blue));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.Cards_price__xJRzw span{
+    font-size: 1.8rem;
+}
+
+.Cards_line___MiAT{
+    width: 100%;
+    height: 1rem;
+    background-color: transparent;
+    border-bottom: 1px dashed rgba(255, 255, 255, .2);
+    margin-bottom: 2rem ;
+}
+
+.Cards_list__Slsk6 li{
+    font-size: 1.6rem;
+}
+
+.Cards_items__I6LNT{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+@media screen and (max-width:768px) {
+    .Cards_section__NwEFK{
+        grid-template-columns: 1fr;
+    }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.3_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/.pnpm/next@14.2.3_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/sections/CeroToMillion/CeroToMillion.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.CeroToMillion_section__Qh5D_{
+    padding-block: 8rem;
+    width: min(90%, 120rem);
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 1.6rem;
+    grid-row-gap: 1.6rem;
+}
+
+.CeroToMillion_box__07B2_{
+    background-color: var(--black);
+    background-image: radial-gradient(circle farthest-side at 0% 100%, var(--dark-pink-gradient), var(--black));
+    border-radius: 9px;
+    flex-direction: column;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    position: relative;
+    border: 1px solid #57396D;
+    min-height: 40rem;
+}
+
+.CeroToMillion_box__07B2_ h2{
+    background-image: linear-gradient(to bottom, var(--blue-violet), var(--light-steel-blue));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.CeroToMillion_box__07B2_ h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 2rem;
+}
+
+.CeroToMillion_box_rigth___u_7H{
+    -webkit-backdrop-filter: blur(5px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-image: radial-gradient(circle farthest-side at 50% 100%, var(--midnight-blue), var(--black));
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    padding: 0;
+    display: grid;
+    border: 1px solid #57396D;
+    border-radius: 1rem;
+}
+
+
+.CeroToMillion_content__8u5jI{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    display: flex;
+}
+
+.CeroToMillion_content__8u5jI .CeroToMillion_caps__4DpH5{
+    background-color: rgba(223, 154, 255, .08);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: max-content;
+}
+
+.CeroToMillion_content__8u5jI .CeroToMillion_caps__4DpH5 h3{
+    background-image: linear-gradient(to bottom, var(--blue-violet), var(--light-steel-blue));
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.CeroToMillion_content__8u5jI a{
+    background-color: #fff;
+    border-radius: 1rem;
+    color: #121212;
+    width: max-content;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:768px) {
+    .CeroToMillion_section__Qh5D_{
+        grid-template-columns: 1fr;
+    }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.3_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/.pnpm/next@14.2.3_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/sections/Home/Growth/Growth.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Growth_section__H3gdo{
+    padding-block: 8rem;
+    width: min(90%, 120rem);
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.Growth_section__H3gdo .Growth_caps__snd1_{
+    background-color: rgba(223, 154, 255, .08);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: max-content;
+}
+
+.Growth_section__H3gdo .Growth_caps__snd1_ h3{
+    background-image: linear-gradient(to bottom, var(--blue-violet), var(--light-steel-blue));
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.Growth_section__H3gdo h2{
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    max-width: 60%;
+}
+
+.Growth_section__H3gdo details{
+    -webkit-backdrop-filter: brightness(110%);
+    backdrop-filter: brightness(110%);
+    background-color: rgba(223, 154, 255, .05);
+    border-radius: 12px;
+    padding: 24px 37px 24px 24px;
+}
+
+.Growth_list__OqFjX{
+    display: grid;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+}
+
+
+.Growth_portrait__yMJqU{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 10rem;
+  }
+
+  .Growth_final__iltPJ{
+    background-color: rgba(255, 255, 255, .1);
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50rem;
+  }
+
+  .Growth_clients_stack__om3Vy{
+    display: flex;
+    align-items: center;
+  }
+
+  .Growth_client_text___xaqP{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+
+.Growth_section_clients__jSXnP{
+    display: grid;
+    justify-content: center;
+}
+
+.Growth_clients__AUs0z{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.Growth_section__H3gdo p{
+    color: rgba(255, 255, 255, .7);
+}
+
+.Growth_link__vcokq{
+    background-color: #fff;
+    border-radius: 1rem;
+    color: #121212;
+    width: max-content;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+
+@media screen and (max-width:768px) {
+    .Growth_section__H3gdo{
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .Growth_section__H3gdo h2{
+        max-width: 90%;
+        font-size: 4rem;
+    }
+}
